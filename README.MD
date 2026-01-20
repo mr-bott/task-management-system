@@ -144,22 +144,24 @@ http://localhost:5000/api-docs
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
+###  Clone Repository
 
 ```
 git clone https://github.com/mr-bott/task-management-system
 cd task-management-system 
-cd backend 
-cd frontend 
+cd backend   on terminal 1
+cd frontend  on terminal 2
 ```
 
-### 2️⃣ Install Dependencies
+###  Install Dependencies
 
 ```
-npm install
+npm install  on terminal 1
+npm install  on terminal 2
+
 ```
 
-### 3️⃣ Environment Variables (`.env`)
+###  Environment Variables (`.env`)
 
 ```
 PORT=5000
@@ -168,10 +170,16 @@ JWT_SECRET=your_jwt_secret
 REDIS_URL=redis://127.0.0.1:6379
 ```
 
-### 5️⃣ Run Server
+###  Run Server
 
 ```
 npm run dev
+```
+
+###  Run Client
+
+```
+npm start
 ```
 
 ---
