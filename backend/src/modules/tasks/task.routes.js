@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const authMiddleware = require("../../middlewares/auth.middleware");
 const authorizeRoles =require("../../middlewares/role.middleware")
+const cacheMiddleware=require("../../middlewares/cache.middleware")
 const {
     createTask,
     getTasks,
@@ -74,7 +75,7 @@ router.post("/", authorizeRoles("USER"), createTask);
  *       401:
  *         description: Unauthorized
  */
-router.get("/", getTasks);
+router.get("/",cacheMiddleware, getTasks);
 
 /**
  * @swagger

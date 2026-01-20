@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const authMiddleware = require("../../middlewares/auth.middleware");
 const authorizeRoles = require("../../middlewares/role.middleware");
+const cacheMiddleware =require("../../middlewares/cache.middleware")
 const {
   getUsers,
   deleteUser,
@@ -63,7 +64,7 @@ router.use(authorizeRoles("ADMIN"));
  *       403:
  *         description: Forbidden (Admin only)
  */
-router.get("/users", getUsers);
+router.get("/users", cacheMiddleware, getUsers);
 /**
  * @swagger
  * /api/v1/admin/users/{id}/tasks:
@@ -114,7 +115,7 @@ router.get("/users", getUsers);
  *       404:
  *         description: User not found
  */
-router.get("/users/:id/tasks", getUserTasks);
+router.get("/users/:id/tasks", cacheMiddleware, getUserTasks);
 
 /**
  * @swagger
@@ -130,7 +131,7 @@ router.get("/users/:id/tasks", getUserTasks);
  *       403:
  *         description: Forbidden
  */
-router.get("/tasks", getTasks);
+router.get("/tasks", cacheMiddleware, getTasks);
 
 /**
  * @swagger

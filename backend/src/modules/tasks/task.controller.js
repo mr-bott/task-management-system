@@ -1,5 +1,5 @@
 const Task = require("./task.model");
-
+const redisClient = require("../../config/redis");
 
 //  Create a new task for the logged-in user
 const createTask = async (req, res, next) => {
@@ -9,6 +9,8 @@ const createTask = async (req, res, next) => {
       ...req.body,
       userId: req.user.id,
     });
+
+    await redisClient.flushAll(); // simple approach for assignment
 
     // 201 = Resource successfully created
     res.status(201).json({
@@ -20,7 +22,6 @@ const createTask = async (req, res, next) => {
     next(error);
   }
 };
-
 
 //  Get tasks of a user and admin
 const getTasks = async (req, res, next) => {
@@ -62,6 +63,7 @@ const updateTask = async (req, res, next) => {
       });
     }
 
+    await redisClient.flushAll(); // flushing for better output
     // Update task fields
     Object.assign(task, req.body);
     await task.save();
@@ -101,7 +103,7 @@ const deleteTask = async (req, res, next) => {
 
     // Delete task
     await task.deleteOne();
-
+    await redisClient.flushAll(); // flushing for better output
     res.json({
       success: true,
       message: "Task deleted successfully",

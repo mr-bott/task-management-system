@@ -1,5 +1,6 @@
 const User = require("../auth/auth.model");
 const Task = require("../tasks/task.model");
+const redisClient =require("../../config/redis")
 
 // Get all users (ADMIN only)
 // GET /api/v1/admin/users
@@ -59,7 +60,7 @@ const deleteUser = async (req, res) => {
         message: "User not found",
       });
     }
-
+    await redisClient.flushAll(); // flushing for better output
     await Task.deleteMany({ userId: user._id }); // Also delete all tasks associated with that user
 
     res.status(200).json({
@@ -89,7 +90,7 @@ const changeUserRole = async (req, res) => {
         message: "Invalid role",
       });
     }
-
+    await redisClient.flushAll(); // flushing for better output
     const user = await User.findByIdAndUpdate(
       // update user role
       req.params.id,

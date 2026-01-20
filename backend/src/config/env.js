@@ -9,7 +9,10 @@ const env = {
 
   // JWT
   jwtSecret: process.env.JWT_SECRET,
-  jwtExpiresIn: process.env.JWT_EXPIRES_IN || "1h"
+  jwtExpiresIn: process.env.JWT_EXPIRES_IN || "1h",
+
+  // REDIS 
+  redisUrl:process.env.REDIS_URL
 };
 
 // Validate required environment variables
