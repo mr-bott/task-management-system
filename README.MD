@@ -1,73 +1,82 @@
-Task Management System (Backend Focused)
+# Task Management System (Backend Focused)
 
-A scalable REST API with authentication, role-based access control, task management, and a basic frontend UI for API interaction.
-This project is built as part of a Backend Developer (Intern) Assignment, with primary focus on backend design, security, and scalability.
+A scalable **REST API** with authentication, role-based access control, task management, and a minimal frontend UI for API interaction.
 
-📌 Project Overview
+This project is built as part of a **Backend Developer (Intern) Assignment**, with a primary focus on **backend architecture, security, and scalability**.
+
+---
+
+## 📌 Project Overview
 
 The application allows users to:
-Register and log in securely
-Create, view, update, and delete tasks
-Access APIs based on roles (USER / ADMIN)
+
+* Register and log in securely
+* Create, view, update, and delete tasks
+* Access APIs based on roles (**USER / ADMIN**)
+
+### Admin Capabilities
 
 Admins can:
 
-View all users
-View all tasks
-View tasks of a specific user
-Change user roles
-Delete users
-A minimal React frontend is included to demonstrate and test backend APIs.
+* View all users
+* View all tasks
+* View tasks of a specific user
+* Change user roles
+* Delete users
 
-🚀 Tech Stack
+A **minimal React frontend** is included only to demonstrate and test backend APIs.
 
-Backend
-Node.js
-Express.js
-MongoDB + Mongoose
-JWT Authentication
-Redis (Caching & Rate Limiting)
-Swagger (OpenAPI)
-Winston & Morgan (Logging)
-Frontend (Basic)
-React.js
-Axios
+---
 
-✅ Features Implemented
-🔐 Authentication & Authorization
-User registration & login
-Password hashing
-JWT-based authentication
-Role-based access control (USER / ADMIN)
-Backend-enforced authorization
+## 🚀 Tech Stack
 
-📦 Task Management
+### Backend
 
-Create, read, update, delete tasks
-Users can access only their own tasks
-Admins can access all tasks
+* Node.js
+* Express.js
+* MongoDB + Mongoose
+* JWT Authentication
+* Redis (Caching & Rate Limiting)
+* Swagger (OpenAPI)
+* Winston & Morgan (Logging)
 
-🛡️ Security & Scalability
+### Frontend (Basic)
 
-API versioning (/api/v1)
-Centralized error handling
-Input validation
-Redis-based rate limiting
-Redis-based caching for GET APIs
-Secure JWT handling
+* React.js
+* Axios
 
-📚 API Documentation
-Swagger UI for all APIs
-Clear request/response schemas
-JWT security configuration
+---
 
-📝 Logging
+### 🛡️ Security & Scalability
 
-Winston for application logs
-Morgan for HTTP request logging
-Logs stored in /logs directory
+* API versioning (`/api/v1`)
+* Centralized error handling
+* Input validation
+* Redis-based rate limiting
+* Redis-based caching for GET APIs
+* Secure JWT handling
 
-🗂️ Project Structure
+---
+
+### 📚 API Documentation
+
+* Swagger UI for all APIs
+* Clear request/response schemas
+* JWT security configuration
+
+---
+
+### 📝 Logging
+
+* **Winston** for application logs
+* **Morgan** for HTTP request logging
+* Logs stored in `/logs` directory
+
+---
+
+## 🗂️ Project Structure
+
+```
 backend/
 ├── logs/
 ├── src/
@@ -95,85 +104,106 @@ backend/
 ├── .env
 └── .gitignore
 
-🔗 API Endpoints (Summary)
-Auth
-POST /api/v1/auth/register
-POST /api/v1/auth/login
+```
 
-Tasks
-POST   /api/v1/tasks
-GET    /api/v1/tasks
-PUT    /api/v1/tasks/:id
-DELETE /api/v1/tasks/:id
+---
 
-Admin
-GET    /api/v1/admin/users
-GET    /api/v1/admin/tasks
-GET    /api/v1/admin/users/:id/tasks
-DELETE /api/v1/admin/users/:id
-PATCH  /api/v1/admin/users/:id/role
+## 🔗 API Endpoints (Summary)
 
-📖 API Documentation
+### Auth
+
+* `POST /api/v1/auth/register`
+* `POST /api/v1/auth/login`
+
+### Tasks
+
+* `POST /api/v1/tasks`
+* `GET /api/v1/tasks`
+* `PUT /api/v1/tasks/:id`
+* `DELETE /api/v1/tasks/:id`
+
+### Admin
+
+* `GET /api/v1/admin/users`
+* `GET /api/v1/admin/tasks`
+* `GET /api/v1/admin/users/:id/tasks`
+* `DELETE /api/v1/admin/users/:id`
+* `PATCH /api/v1/admin/users/:id/role`
+
+---
+
+## 📖 API Documentation
 
 Swagger UI available at:
 
+```
 http://localhost:5000/api-docs
+```
 
-⚙️ Setup Instructions
-1️⃣ Clone Repository
-git clone <repository-url>
-cd task-management-system
+---
 
-2️⃣ Install Dependencies
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
+
+```
+git clone https://github.com/mr-bott/task-management-system
+cd task-management-system 
+cd backend 
+cd frontend 
+```
+
+### 2️⃣ Install Dependencies
+
+```
 npm install
+```
 
-3️⃣ Environment Variables (.env)
+### 3️⃣ Environment Variables (`.env`)
+
+```
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/task-management
 JWT_SECRET=your_jwt_secret
 REDIS_URL=redis://127.0.0.1:6379
+```
 
-4️⃣ Start Redis
-redis-server
+### 5️⃣ Run Server
 
-5️⃣ Run Server
+```
 npm run dev
+```
 
-🧠 Scalability Notes
+---
 
-Modular architecture allows easy feature expansion
+## 🧠 Scalability Notes
 
-Redis enables horizontal scaling
+* Modular architecture allows easy feature expansion
+* Redis enables horizontal scaling
+* Rate limiting protects APIs from abuse
+* Caching reduces database load
 
-Rate limiting protects APIs from abuse
+### Can be extended with:
 
-Caching reduces database load
+* Docker & Nginx
+* Microservices architecture
+* Message queues (Kafka / RabbitMQ)
+* Cloud deployment (AWS / GCP)
 
-Can be extended with:
+---
 
-Docker & Nginx
+## 🎯 Assignment Highlights
 
-Microservices
+* Clean REST API design
+* Secure authentication & authorization
+* Real-world middleware usage
+* Backend-focused implementation
+* Minimal but functional frontend
+* Production-oriented project structure
 
-Message queues
+---
 
-Cloud deployment (AWS/GCP)
+## 👤 Author
 
-🎯 Assignment Highlights
-
-Clean REST API design
-
-Secure authentication & authorization
-
-Real-world middleware usage
-
-Backend-focused implementation
-
-Minimal but functional frontend
-
-Production-oriented project structure
-
-👤 Author
-
-Murali Krishna
-Backend Developer Intern Applicant
+**Murali Krishna**
+Backend Developer – Intern Applicant
