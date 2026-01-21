@@ -14,16 +14,6 @@ The application allows users to:
 * Create, view, update, and delete tasks
 * Access APIs based on roles (**USER / ADMIN**)
 
-### Admin Capabilities
-
-Admins can:
-
-* View all users
-* View all tasks
-* View tasks of a specific user
-* Change user roles
-* Delete users
-
 A **minimal React frontend** is included only to demonstrate and test backend APIs.
 
 ---
@@ -193,7 +183,7 @@ npm start
 
 ---
 
-## ⚙️ Doceker Setup Instructions Backend ⚙️
+## ⚙️ Docker Setup Instructions Backend ⚙️
 
 ###  Clone Repository
 

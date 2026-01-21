@@ -50,7 +50,7 @@ JWT_EXPIRES_IN=1d
 
 ---
 
-## ⚙️ Doceker Setup Instructions Backend ⚙️
+## ⚙️ Docker Setup Instructions Backend ⚙️
 
 ###  Clone Repository
 
