@@ -55,6 +55,7 @@ A **minimal React frontend** is included only to demonstrate and test backend AP
 * Redis-based rate limiting
 * Redis-based caching for GET APIs
 * Secure JWT handling
+* env.js to handle missing varaibles 
 
 ---
 
@@ -103,6 +104,9 @@ backend/
 │   └── swagger.js
 ├── .env
 └── .gitignore
+|
+├── package-locak.json
+└── package.json
 
 ```
 
@@ -168,6 +172,8 @@ PORT=5000
 MONGO_URI=mongodb://localhost:27017/task-management
 JWT_SECRET=your_jwt_secret
 REDIS_URL=redis://127.0.0.1:6379
+NODE_ENV=development
+JWT_EXPIRES_IN=1d
 ```
 
 ###  Run Server
@@ -180,6 +186,27 @@ npm run dev
 
 ```
 npm start
+```
+
+---
+
+
+---
+
+## ⚙️ Doceker Setup Instructions Backend ⚙️
+
+###  Clone Repository
+
+```
+ cd backend  
+
+```
+
+###  Run Command 
+
+```
+docker-compose up --build
+
 ```
 
 ---

@@ -85,3 +85,16 @@
 {"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:41.026Z"}
 {"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:41.123Z"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [20/Jan/2026:17:05:18 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 403 43 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2026-01-20T17:05:18.585Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:05:48.601Z"}
+{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:05:48.616Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:05:48.790Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T18:41:34.139Z"}
+{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T18:41:34.159Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T18:41:34.277Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T18:56:29.645Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T18:56:29.661Z"}
+{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T18:56:29.694Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.780Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"OPTIONS /api/v1/admin/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.781Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 401 54 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.804Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 401 54 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.808Z"}

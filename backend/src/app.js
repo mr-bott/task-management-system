@@ -10,12 +10,13 @@ const adminRoutes=require("./modules/admin/admin.routes")
 const errorHandler = require("./middlewares/error.middleware");
 const swaggerSpec = require("../swagger/swagger");
 const logger = require("./utils/logger");
+const redisRateLimiter = require("../src/middlewares/redisRateLimiter.middleware.js")
 
 const app = express();
 
 // Body parser
 app.use(express.json());
-
+app.use(redisRateLimiter(500,60))
 // Request logging (console)
 app.use(
   morgan("combined", {
