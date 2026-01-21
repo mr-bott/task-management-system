@@ -1,100 +1,70 @@
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:56:10.748Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:56:10.768Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:56:54.022Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:56:54.038Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:57:25.041Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:57:25.067Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:57:36.669Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:57:36.688Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:57:57.492Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:57:57.510Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:58:08.969Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:58:08.988Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:59:11.327Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:59:11.344Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:59:45.972Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:59:45.990Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T16:59:47.180Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T16:59:47.195Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:00:18.077Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:00:18.225Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:00:18.239Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:00:26.228Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:00:26.367Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:00:26.380Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:01:06.580Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:01:06.599Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:01:06.751Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:01:10.984Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:01:10.999Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:01:11.127Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.702Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"OPTIONS /api/v1/admin/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.708Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.712Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"OPTIONS /api/v1/admin/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.714Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.812Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.817Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.923Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:07 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:07.925Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:11 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:11.309Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:11 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:11.315Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:11 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:11.389Z"}
-{"level":"info","message":"::1 - - [20/Jan/2026:17:02:11 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T17:02:11.391Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:02:24.224Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:02:24.237Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:02:24.364Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:02:29.042Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:02:29.058Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:02:29.163Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:03:56.266Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:03:56.280Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:03:56.411Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:03:59.504Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:03:59.520Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:03:59.633Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:05.586Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:05.604Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:05.722Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:07.933Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:07.948Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:08.057Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:13.970Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:13.985Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:14.094Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:18.032Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:18.052Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:18.142Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:19.943Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:19.959Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:20.054Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:22.560Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:22.575Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:22.662Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:25.037Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:25.053Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:27.496Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:27.512Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:27.647Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:29.379Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:29.394Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:29.550Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:37.144Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:37.159Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:37.308Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:04:41.011Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:04:41.026Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:04:41.123Z"}
-{"level":"info","message":"::ffff:127.0.0.1 - - [20/Jan/2026:17:05:18 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 403 43 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","timestamp":"2026-01-20T17:05:18.585Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T17:05:48.601Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T17:05:48.616Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T17:05:48.790Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T18:41:34.139Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T18:41:34.159Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T18:41:34.277Z"}
-{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-20T18:56:29.645Z"}
-{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-20T18:56:29.661Z"}
-{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-20T18:56:29.694Z"}
-{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.780Z"}
-{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"OPTIONS /api/v1/admin/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.781Z"}
-{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 401 54 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.804Z"}
-{"level":"info","message":"::ffff:172.20.0.1 - - [20/Jan/2026:18:56:53 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 401 54 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-20T18:56:53.808Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-21T06:23:22.752Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-21T06:23:22.764Z"}
+{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-21T06:23:22.776Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Jan/2026:06:24:05 +0000] \"OPTIONS /api/v1/admin/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:24:05.820Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Jan/2026:06:24:05 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:24:05.822Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Jan/2026:06:24:05 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 401 54 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:24:05.831Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Jan/2026:06:24:05 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 401 54 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:24:05.838Z"}
+{"level":"info","message":"::ffff:172.21.0.1 - - [21/Jan/2026:06:25:22 +0000] \"OPTIONS /api/v1/auth/register HTTP/1.1\" 204 0 \"http://localhost:3001/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:25:22.008Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-21T06:33:43.756Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-21T06:33:43.782Z"}
+{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-21T06:33:43.802Z"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-01-21T06:38:20.650Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-01-21T06:38:20.666Z"}
+{"level":"info","message":" MongoDB connected successfully","timestamp":"2026-01-21T06:38:20.686Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:42:11 +0000] \"OPTIONS /api/v1/auth/register HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:42:11.935Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:42:12 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 57 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:42:12.060Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:42:28 +0000] \"OPTIONS /api/v1/auth/login HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:42:28.198Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:42:28 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 216 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:42:28.303Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:42:32 +0000] \"OPTIONS /api/v1/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:42:32.169Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:42:32 +0000] \"GET /api/v1/tasks HTTP/1.1\" 200 26 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:42:32.190Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:05 +0000] \"OPTIONS /api/v1/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:43:05.167Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:05 +0000] \"POST /api/v1/tasks HTTP/1.1\" 201 288 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:43:05.187Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:05 +0000] \"GET /api/v1/tasks HTTP/1.1\" 200 290 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:43:05.198Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:21 +0000] \"OPTIONS /api/v1/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:43:21.863Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:21 +0000] \"POST /api/v1/tasks HTTP/1.1\" 201 259 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:43:21.907Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:21 +0000] \"GET /api/v1/tasks HTTP/1.1\" 200 526 \"http://localhost:3000/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\"","timestamp":"2026-01-21T06:43:21.917Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:57 +0000] \"OPTIONS /api/v1/auth/register HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:43:57.356Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:43:57 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 57 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:43:57.429Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:14 +0000] \"OPTIONS /api/v1/auth/login HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:14.012Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:14 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 218 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:14.084Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:15 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:15.861Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:15 +0000] \"OPTIONS /api/v1/admin/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:15.864Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:15 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 200 404 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:15.871Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:15 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 200 546 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:15.874Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:22 +0000] \"OPTIONS /api/v1/admin/users/6970754454d86053da778b06/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:22.582Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:22 +0000] \"GET /api/v1/admin/users/6970754454d86053da778b06/tasks HTTP/1.1\" 200 628 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:22.590Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:24 +0000] \"OPTIONS /api/v1/admin/users/697075ad54d86053da778b11/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:24.486Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:24 +0000] \"GET /api/v1/admin/users/697075ad54d86053da778b11/tasks HTTP/1.1\" 200 130 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:24.496Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:54 +0000] \"OPTIONS /api/v1/admin/users/6970754454d86053da778b06/role HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:54.868Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:54 +0000] \"PATCH /api/v1/admin/users/6970754454d86053da778b06/role HTTP/1.1\" 200 202 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:54.922Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:54 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:54.927Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:54 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 200 405 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:54.933Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:57 +0000] \"PATCH /api/v1/admin/users/6970754454d86053da778b06/role HTTP/1.1\" 200 201 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:57.658Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:44:57 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 200 404 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:44:57.666Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:04 +0000] \"OPTIONS /api/v1/admin/users/697075ad54d86053da778b11/role HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:04.524Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:04 +0000] \"PATCH /api/v1/admin/users/697075ad54d86053da778b11/role HTTP/1.1\" 200 203 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:04.540Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:04 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:04.545Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:04 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 200 403 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:04.550Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:05 +0000] \"PATCH /api/v1/admin/users/697075ad54d86053da778b11/role HTTP/1.1\" 200 204 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:05.871Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:05 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 200 404 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:05.878Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:38 +0000] \"OPTIONS /api/v1/auth/register HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:38.740Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:38 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 201 57 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:38.816Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:54 +0000] \"OPTIONS /api/v1/auth/login HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:54.558Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:54 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 216 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:54.631Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:58 +0000] \"OPTIONS /api/v1/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:58.129Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:45:58 +0000] \"GET /api/v1/tasks HTTP/1.1\" 200 26 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:45:58.138Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:04 +0000] \"OPTIONS /api/v1/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:04.383Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:04 +0000] \"POST /api/v1/tasks HTTP/1.1\" 201 236 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:04.423Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:04 +0000] \"GET /api/v1/tasks HTTP/1.1\" 200 238 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:04.431Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:10 +0000] \"OPTIONS /api/v1/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:10.452Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:10 +0000] \"POST /api/v1/tasks HTTP/1.1\" 201 234 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:10.500Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:10 +0000] \"GET /api/v1/tasks HTTP/1.1\" 200 449 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:10.509Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:15 +0000] \"POST /api/v1/tasks HTTP/1.1\" 201 236 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:15.353Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:15 +0000] \"GET /api/v1/tasks HTTP/1.1\" 200 662 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:15.362Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:31 +0000] \"OPTIONS /api/v1/auth/login HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:31.536Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:31 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 200 218 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:31.612Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:33 +0000] \"OPTIONS /api/v1/admin/users HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:33.834Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:33 +0000] \"OPTIONS /api/v1/admin/tasks HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:33.836Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:33 +0000] \"GET /api/v1/admin/users HTTP/1.1\" 200 584 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:33.845Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [21/Jan/2026:06:46:33 +0000] \"GET /api/v1/admin/tasks HTTP/1.1\" 200 1183 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","timestamp":"2026-01-21T06:46:33.847Z"}

@@ -6,16 +6,18 @@ export default function Register() {
     name: "",
     email: "",
     password: "",
-    role: "",
+    role: "USER",
   });
 
   const submit = async () => {
-    if (!form.email || !form.password || !form.role || !form.name) { //valadating form 
+    if (!form.email || !form.password || !form.role || !form.name) {
+      //valadating form
+      console.log(form);
       alert("All fields are required");
       return;
     }
 
-    await api.post("/auth/register", form); //api call 
+    await api.post("/auth/register", form); //api call
     alert("Registered successfully");
   };
 
@@ -39,9 +41,13 @@ export default function Register() {
         placeholder="Password"
         onChange={(e) => setForm({ ...form, password: e.target.value })}
       />
-      <select style={styles.input}   onChange={(e) => setForm({ ...form, role: e.target.value })}>
-        <option value="USER">user</option>
-        <option value="ADMIN">admin</option>
+      <select
+        style={styles.input}
+        value={form.role}
+        onChange={(e) => setForm({ ...form, role: e.target.value })}
+      >
+        <option value="USER">User</option>
+        <option value="ADMIN">Admin</option>
       </select>
 
       <button style={styles.button} onClick={submit}>

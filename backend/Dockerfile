@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install --production
+RUN npm install 
 
 # Copy source code
 COPY . .
@@ -18,3 +18,6 @@ EXPOSE 5000
 
 # Start server
 CMD ["npm", "start"]
+
+# CMD ["npm", "run", "dev"]  for development 
+
